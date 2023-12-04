@@ -1,17 +1,17 @@
 ---
-layout: work
+layout: publications
 title: Publications
 slug: /Publications
 items:
   - title: An Energy Based Model for Incorporating Sequence Priors for Target-Specific Antibody Design
     image:
-      src: /assets/img/work/EBM.png
+      src: /assets/img/publications/EBM.png
       alt: water
     authors: Yining Huang, Steffanie Paul, Debora Marks. 
     description: NeurIPS 2023 Generative AI and Biology Workshop
   - title: M2Hub Unlocking the Potential of Machine Learning for Materials Discovery
     image:
-      src: /assets/img/work/M2Hub.png
+      src: /assets/img/publications/M2Hub.png
       alt: sand
     authors: Yuanqi Du, Yingheng Wang, Yining Huang, Jianan Canal Li, Yanqiao Zhu, Tian Xie, Chenru Duan, John Gregoire, Carla P Gomes. 
     description: NeurIPS 2023 Datasets and Benchmarks Track.
