@@ -33,6 +33,7 @@ header:
       slug: /
     # - name: CV
     - name: Publications
+      slug: /
 
 
 footer:
