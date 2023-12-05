@@ -32,7 +32,7 @@ header:
     - name: Home
       slug: /
     # - name: CV
-    - name: Publications
+    - name: publications
 
 
 footer:
