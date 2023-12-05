@@ -15,3 +15,4 @@ profile_picture:
 <p>
   His interest is AI4Science, particularly in biomedical sciences. He seeks to use machine learning to expedite advancement in medicine. His recent research includes generative models, graph neural networks, antibody design and molecule optimization. 
 </p>
+

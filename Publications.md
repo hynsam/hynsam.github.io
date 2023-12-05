@@ -1,7 +1,6 @@
 ---
 layout: publications
 title: Publications
-slug: publications
 items:
   - title: An Energy Based Model for Incorporating Sequence Priors for Target-Specific Antibody Design
     image:
