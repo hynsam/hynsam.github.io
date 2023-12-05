@@ -11,7 +11,7 @@ profile_picture:
 <p>
   Yining Huang is a master student in Biomedical Informatics at Harvard University, advised by Prof.  <a href="https://www.deboramarkslab.com/">Debora Marks</a>. He obtained his BS in computer science and statistics from Northwestern, where he was advised by Prof. Han Liu and Prof. Bradly Stadie. 
 </p>
-
+<br/>
 <p>
   His interest is AI4Science, particularly in biomedical sciences. He seeks to use machine learning to expedite advancement in medicine. His recent research includes generative models, graph neural networks, antibody design and molecule optimization. 
 </p>
