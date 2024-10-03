@@ -1,0 +1,140 @@
+@INPROCEEDINGS{Huang*2023-ei,
+  title  = "An Energy Based Model for Incorporating Sequence Priors for
+            Target-Specific Antibody Design",
+  author = "Huang*, Yining and Paul*, Steffanie and Marks, Debora",
+  booktitle = "Neurips'23: Workshop on Generative AI and Biology",
+  abstract = "With the growing demand for antibody therapeutics, there is a great need for computational methods to accelerate antibody discovery and optimization. Advances in machine learning on graphs have been leveraged to develop generative models of antibody sequence and structure that condition on specific antigen epitopes. However, the data availability for training models on structure (∼5k antibody binding complexes Schneider et al. [2022]) is dwarfed by the amount of antibody sequence data available (> 550M sequences Olsen et al. [2022]) which have been used to train protein language models useful for antibody generation and optimization Here we motivate the combination of well-trained antibody sequence models and graph generative models on target structures to enhance their performance for target-conditioned antibody design. First, we present the results of an investigation into the sitewise design performance of popular target-conditioned design models. We show that target-conditioned models may not be incorporating target information into the generation of middle loop residues of the complementarity-determining region of the antibody sequence. Next, we propose an energy-based model framework designed to encourage a model to learn target-specific information by supplementing it with pre-trained marginal-sequence information. We present preliminary results on the development of this model and outline future steps to improve the model framework.
+
+  ",
+  month  =  oct,
+  year   =  2023
+}
+
+@INPROCEEDINGS{Sharon*2024-nz,
+  title    = "How to Go With the Flow: an Analysis of Flow Matching Molecular
+              Docking Performance With Priors of Varying Information Content",
+  author   = "Sharon*, Dina A and Huang*, Yining and Oyewole, Motolani and
+              Mustafa, Sammy",
+  booktitle = "ICLR'24: Workshop on Generative and Experimental Perspectives for Biomolecular Design",
+  abstract = "Predicting molecular docking poses with flow matching algorithms
+              represents both a promising opportunity and a challenging task.
+              Recently, a flow matching algorithm, HarmonicFlow, has been
+              reported to yield encouraging molecular docking results. The
+              method employs a harmonic prior to make initial predictions. In
+              light of the importance of long-range information for molecular
+              structure, we sought to understand the consequences of the
+              harmonic prior for docking results. We found that the
+              most-recent-at-the-time-of-our-initial-writing method often
+              provides compressed poses, and there is some correlation between
+              this compression and docking performance (though results changed
+              with a newer version). We retrained the method to use a prior
+              incorporating information from a molecular conformation, to
+              determine whether a prior with more comprehensive structural
+              detail would provide better performance. Performance did not
+              improve with this new prior, whether the exact long-range
+              information was used or whether noise was added. This finding
+              suggests that further prior development is unlikely to improve
+              performance, implying perhaps advances in the neural network could
+              be another avenue to consider. Therefore, we discuss some possible
+              ways to leverage local and long-range structural information in
+              the neural network. By understanding chemical features associated
+              with docking performance, investigating results with a more
+              chemically-informed prior, and suggesting possible neural network
+              advances, this work enhances the molecular machine learning
+              community's grasp of the repertoire of opportunities available to
+              improve docking …",
+  month    =  may,
+  year     =  2024
+}
+
+@INPROCEEDINGS{Wei2024-pi,
+  title    = "Navigating chemical space with latent flows",
+  author   = "Wei*, Guanghao and Huang*, Yining and Duan, Chenru and Song, Yue and
+              Du, Yuanqi",
+  booktitle = "Neurips'24: Advances in neural information processing systems",
+  abstract = "Recent progress of deep generative models in the vision and
+              language domain has stimulated significant interest in more
+              structured data generation such as molecules. However, beyond
+              generating new random molecules, efficient exploration and a
+              comprehensive understanding of the vast chemical space are of
+              great importance to molecular science and applications in drug
+              design and materials discovery. In this paper, we propose a new
+              framework, ChemFlow, to traverse chemical space through navigating
+              the latent space learned by molecule generative models through
+              flows. We introduce a dynamical system perspective that formulates
+              the problem as learning a vector field that transports the mass of
+              the molecular distribution to the region with desired molecular
+              properties or structure diversity. Under this framework, we unify
+              previous approaches on molecule latent space traversal and
+              optimization and propose alternative competing methods
+              incorporating different physical priors. We validate the efficacy
+              of ChemFlow on molecule manipulation and single- and
+              multi-objective molecule optimization tasks under both supervised
+              and unsupervised molecular discovery settings. Codes and demos are
+              publicly available on GitHub at
+              https://github.com/garywei944/ChemFlow.",
+  month    =  may,
+  year     =  2024
+}
+
+@INPROCEEDINGS{Du*2023-zr,
+  title    = "{M}$^2${Hub}: Unlocking the Potential of Machine Learning for
+              Materials {Discover}$^{2}$",
+  author   = "Du*, Yuanqi and Wang*, Yingheng and Huang, Yining and Li, Jianan
+              Canal and Zhu, Yanqiao and Xie, Tian and Duan, Chenru and
+              Gregoire, John M and Gomes, Carla P",
+  booktitle = "Neurips'23: Advances in neural information processing systems",
+  abstract = "We introduce M$^2$Hub, a toolkit for advancing machine learning in
+              materials discovery. Machine learning has achieved remarkable
+              progress in modeling molecular structures, especially biomolecules
+              for drug discovery. However, the development of machine learning
+              approaches for modeling materials structures lag behind, which is
+              partly due to the lack of an integrated platform that enables
+              access to diverse tasks for materials discovery. To bridge this
+              gap, M Hub will enable easy access to materials discovery tasks,
+              datasets, machine learning methods, evaluations, and benchmark
+              results that cover the entire workflow. Specifically, the first
+              release of M Hub focuses on three key stages in materials
+              discovery: virtual screening, inverse design, and molecular
+              simulation, including 9 datasets that covers 6 types of materials
+              with 56 tasks across 8 types of material properties. We further
+              provide 2 synthetic datasets for the purpose of generative tasks
+              on materials. In addition to random data splits, we also provide 3
+              additional data partitions to reflect the real-world materials
+              discovery scenarios. State-of-the-art machine learning methods
+              (including those are suitable for materials structures but never
+              compared in the literature) are benchmarked on representative
+              tasks. Our codes and library are publicly available at\url
+              {https://github. com/yuanqidu/M2Hub}.",
+  month    =  sep,
+  year     =  2023
+}
+
+@INPROCEEDINGS{Huang2024-jf,
+  title     = "Augmenting Evolutionary Models with Structure-based Retrieval",
+  author    = "Huang*, Yining and Zhang*, Zuobai and Tang, Jian and Marks, Debora
+               Susan and Notin, Pascal",
+  booktitle = "ICML'24 Workshop ML for Life and Material Science: From Theory to
+               Industry Applications",
+  abstract  = "Multiple Sequence Alignments (MSAs) are crucial in protein
+               sequence analysis for identifying homologous proteins sharing a
+               common evolutionary origin. However, traditional MSA search tools
+               struggle to recover distantly related sequences that, despite low
+               sequence similarity, exhibit high structural and functional
+               resemblance—often missing in the so-called ‘midnight zone’ of
+               protein similarity. To overcome these limitations, we propose the
+               integration of structure similarity search tools to enhance the
+               identification of homologous proteins. This approach utilizes
+               Foldseek to search the AlphaFold database, aligning structurally
+               similar proteins to construct Multiple Structure Alignments
+               (MStructAs) alongside traditional MSAs. By combining these
+               alignments, we develop family-specific generative models for
+               protein fitness prediction, using diverse assays from the
+               ProteinGym benchmarks. Our findings reveal that incorporating
+               structure-based retrieval into MSAs significantly improves the
+               performance of alignment-based methods, suggesting a robust
+               hybrid retrieval strategy that harnesses both sequence and
+               structure similarities.",
+  month     =  may,
+  year      =  2024
+}
