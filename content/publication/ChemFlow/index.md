@@ -6,7 +6,7 @@ title: 'Navigating Chemical Space with Latent Flows'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Guanghao Wei
-  - admins
+  - admin
   - Chenru Duan
   - Yue Song
   - Yuanqi Du
