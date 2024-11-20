@@ -4,7 +4,7 @@ authors:
 authors:
   - Zaixi Zhang
   - Jiaxian Yan
-  - **Yining Huang**
+  - admin
   - Qi Liu
   - Enhong Chen
   - Mengdi Wang
