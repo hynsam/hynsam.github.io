@@ -1,23 +1,35 @@
 ---
-title: 'An example conference paper - 2'
+title: 'Multi-Scale Representation Learning for Protein Fitness Prediction'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - Zuobai Zhang *
+  - Pascal Notin *
+  - Yining Huang
+  - Aurélie Lozano
+  - Vijil Chenthamarakshan
+  - Debora Marks
+  - Payel Das
+  - Jian Tang
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  
+date: '2024-09-26T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-09-26T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +37,16 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *Advances in Neural Information Processing Systems 37 (NeurIPS 2024)*
+publication_short: "In *NeurIPS 2024: Conference on Neural Information Processing Systems*"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Designing novel functional proteins crucially depends on accurately modeling their fitness landscape. Given the limited availability of functional annotations from wet-lab experiments, previous methods have primarily relied on self-supervised models trained on vast, unlabeled protein sequence or structure datasets. While initial protein representation learning studies solely focused on either sequence or structural features, recent hybrid architectures have sought to merge these modalities to harness their respective strengths. However, these sequence-structure models have so far achieved only incremental improvements when compared to the leading sequence-only approaches, highlighting unresolved challenges effectively leveraging these modalities together. Moreover, the function of certain proteins is highly dependent on the granular aspects of their surface topology, which have been overlooked by prior models. To address these limitations, we introduce the Sequence-Structure-Surface Fitness (S3F) model — a novel multimodal representation learning framework that integrates protein features across several scales. Our approach combines sequence representations from a protein language model with Geometric Vector Perceptron networks encoding protein backbone and detailed surface topology. The proposed method achieves state-of-the-art fitness prediction on the ProteinGym benchmark encompassing 217 substitution deep mutational scanning assays, and provides insights into the determinants of protein function. Our code is at https://github.com/DeepGraphLearning/S3F.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In this paper, we introduce the Sequence-Structure-Surface Fitness (S3F) model — a novel multimodal representation learning framework that integrates protein features across several scales.
 
 tags:
-  - Large Language Models
+  - Protein Engineering
 
 # Display this page in the Featured widget?
 featured: true
@@ -44,19 +56,19 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: 'https://openreview.net/pdf?id=kWMVzIdCEn'
+url_code: 'https://github.com/DeepGraphLearning/S3F'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -65,23 +77,13 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+# projects:
+  # - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

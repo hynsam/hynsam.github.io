@@ -9,6 +9,18 @@ authors:
   - Enhong Chen
   - Mengdi Wang
   - Marinka Zitnik
+
+
+# Author notes (optional)
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - ''
+  - ''
+  - ''
+  - ''
+
 date: "2024-11-16T00:00:00Z"
 doi: ""
 
@@ -32,7 +44,7 @@ summary: This paper systematically reviews the state-of-the-art in geometric dee
 tags:
 - Structure-Based Drug Design
 
-featured: true
+featured: false
 
 links:
 # - name: Custom Link

@@ -15,9 +15,9 @@ authors:
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
-  # - ''
-  # - ''
-  # - ''
+  - ''
+  - ''
+  - ''
 
 date: '2024-09-26T00:00:00Z'
 doi: ''
@@ -40,7 +40,7 @@ abstract: Recent progress of deep generative models in the vision and language d
 summary: In this paper, we propose a new framework, ChemFlow, to traverse chemical space through navigating the latent space learned by molecule generative models through flows. 
 
 tags:
-  - Generative Models
+  - AI for Science
 
 # Display this page in the Featured widget?
 featured: true
