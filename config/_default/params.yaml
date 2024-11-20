@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Sam Huang personal academic website.'
+    description: 'Yining (Sam) Huang personal academic website.'
     twitter: 'hynsam'
   analytics:
     google_analytics: ''
@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Sam Huang"
+      text: "Yining (Sam) Huang"
 
 # Site footer
 footer:
