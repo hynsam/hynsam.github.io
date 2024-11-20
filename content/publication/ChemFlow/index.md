@@ -15,9 +15,9 @@ authors:
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
-  - 
-  - 
-  - 
+  - ''
+  - ''
+  - ''
 
 date: '2024-09-26T00:00:00Z'
 doi: ''
@@ -37,10 +37,10 @@ publication_short: "In *NeurIPS 2024: Conference on Neural Information Processin
 abstract: Recent progress of deep generative models in the vision and language domain has stimulated significant interest in more structured data generation such as molecules. However, beyond generating new random molecules, efficient exploration and a comprehensive understanding of the vast chemical space are of great importance to molecular science and applications in drug design and materials discovery. In this paper, we propose a new framework, ChemFlow, to traverse chemical space through navigating the latent space learned by molecule generative models through flows. We introduce a dynamical system perspective that formulates the problem as learning a vector field that transports the mass of the molecular distribution to the region with desired molecular properties or structure diversity. Under this framework, we unify previous approaches on molecule latent space traversal and optimization and propose alternative competing methods incorporating different physical priors. We validate the efficacy of ChemFlow on molecule manipulation and single- and multi-objective molecule optimization tasks under both supervised and unsupervised molecular discovery settings. Codes and demos are publicly available on GitHub at https://github.com/garywei944/ChemFlow.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: In this paper, we propose a new framework, ChemFlow, to traverse chemical space through navigating the latent space learned by molecule generative models through flows. 
 
 tags:
-  # - Large Language Models
+  - Generative Models
 
 # Display this page in the Featured widget?
 featured: true
