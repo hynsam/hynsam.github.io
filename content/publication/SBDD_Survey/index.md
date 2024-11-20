@@ -2,9 +2,9 @@
 title: "Geometric Deep Learning for Structure-Based Drug Design: A Survey"
 authors:
 authors:
-  - Zaixi Zhang
-  - Jiaxian Yan
-  - admin
+  - Zaixi Zhang *
+  - Jiaxian Yan *
+  - Yining Huang *
   - Qi Liu
   - Enhong Chen
   - Mengdi Wang
