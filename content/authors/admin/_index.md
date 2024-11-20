@@ -183,4 +183,4 @@ awards:
 
 ## About Me
 
-Sam is a master student in biomedical informatics at Harvard University. He is working on Artificial Intelligence for biology with Prof. Debora Marks. He received my BS in computer science and statistics from Northwestern University, where he was advised by Prof. Liu Han and Prof. Bradly Stadie. 
+Sam is a master’s student in biomedical informatics at Harvard University. He is working on artificial intelligence for biology with Prof. Debora Marks. He received his bachelor’s degree in computer science and statistics from Northwestern University.
