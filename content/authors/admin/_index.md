@@ -81,10 +81,10 @@ education:
     #   - Quantum Computing,
     #   - Stochastic Processes
     #   - Time Series Modeling
-    #   - Bayesian
-    #   - Cell Biology
-    #   - Physiology
-    #   - Genetics
+      - Bayesian
+      - Cell Biology
+      - Physiology
+      - Genetics
 work:
   # - position: Director of Cloud Infrastructure
   #   company_name: GenCoin
