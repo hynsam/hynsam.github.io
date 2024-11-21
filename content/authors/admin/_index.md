@@ -52,39 +52,39 @@ interests:
   - Protein Engineering
 
 education:
-  - area: MS Biomedical Informatics
+  - area: MS in Biomedical Informatics
     institution: Harvard University
     date_start: 2023-09-01
     date_end: 2025-05-15
     summary: |
       GPA: 3.96/4.00
 
-      Courses included:
-      - Computational Biology
-      - Single Cell Analysis
-      - Rare Disease Analysis
-      - Clinical Informatics
-      - Graph Neural Network
-      - Machine Learning Operations
-  - area:  BS Computer Science & Statistics
+    #   Courses included:
+    #   - Computational Biology
+    #   - Single Cell Analysis
+    #   - Rare Disease Analysis
+    #   - Clinical Informatics
+    #   - Graph Neural Network
+    #   - Machine Learning Operations
+  - area:  BS in Computer Science & Statistics
     institution: Northwestern University
     date_start: 2019-09-15
     date_end: 2023-06-15
     summary: |
-      GPA: 3.99/4.00
+      GPA: 3.99/4.00 (Summa Cum Laude)
       
-      Courses included:
-      - Natural Language Processing
-      - Reinforcement Learning
-      - Optimization
-      - CUDA Programming
-      - Quantum Computing,
-      - Stochastic Processes
-      - Time Series Modeling
-      - Bayesian
-      - Cell Biology
-      - Physiology
-      - Genetics
+    #   Courses included:
+    #   - Natural Language Processing
+    #   - Reinforcement Learning
+    #   - Optimization
+    #   - CUDA Programming
+    #   - Quantum Computing,
+    #   - Stochastic Processes
+    #   - Time Series Modeling
+    #   - Bayesian
+    #   - Cell Biology
+    #   - Physiology
+    #   - Genetics
 work:
   # - position: Director of Cloud Infrastructure
   #   company_name: GenCoin
