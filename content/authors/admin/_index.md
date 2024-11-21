@@ -184,3 +184,5 @@ awards:
 ## 👋 Hey, 
 
 I am a master’s student in biomedical informatics at Harvard University. I am working on artificial intelligence for biology with Prof. Debora Marks. I received my bachelor’s degree in computer science and statistics from Northwestern University.
+
+**I also am looking for PhD positions for fall 2025. **
