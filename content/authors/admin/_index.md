@@ -40,7 +40,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/hynsam
   - icon: brands/linkedin
-    url: hhttps://www.linkedin.com/in/yining-huang-83b45a169/
+    url: https://www.linkedin.com/in/yining-huang-83b45a169/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=YBBQLMcAAAAJ&hl=en
   # - icon: academicons/orcid
