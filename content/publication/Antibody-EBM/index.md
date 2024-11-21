@@ -46,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/forum?id=Ejw5zOOgLp'
+url_pdf: 'https://openreview.net/pdf?id=Ejw5zOOgLp'
 url_code: ''
 url_dataset: ''
 url_poster: ''
